@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F2C2BA902F1DC73600C2F10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2BA7A2F1DC73500C2F10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C2BA812F1DC73500C2F10A;
+			remoteInfo = "readADHD Claude";
+		};
+		F2C2BA9A2F1DC73600C2F10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2BA7A2F1DC73500C2F10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C2BA812F1DC73500C2F10A;
+			remoteInfo = "readADHD Claude";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2C2BA822F1DC73500C2F10A /* readADHD Claude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "readADHD Claude.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2BA8F2F1DC73600C2F10A /* readADHD ClaudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "readADHD ClaudeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2BA992F1DC73600C2F10A /* readADHD ClaudeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "readADHD ClaudeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F2C2BA842F1DC73500C2F10A /* readADHD Claude */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "readADHD Claude";
+			sourceTree = "<group>";
+		};
+		F2C2BA922F1DC73600C2F10A /* readADHD ClaudeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "readADHD ClaudeTests";
+			sourceTree = "<group>";
+		};
+		F2C2BA9C2F1DC73600C2F10A /* readADHD ClaudeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "readADHD ClaudeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C2BA7F2F1DC73500C2F10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BA8C2F1DC73600C2F10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BA962F1DC73600C2F10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C2BA792F1DC73500C2F10A = {
+			isa = PBXGroup;
+			children = (
+				F2C2BA842F1DC73500C2F10A /* readADHD Claude */,
+				F2C2BA922F1DC73600C2F10A /* readADHD ClaudeTests */,
+				F2C2BA9C2F1DC73600C2F10A /* readADHD ClaudeUITests */,
+				F2C2BA832F1DC73500C2F10A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C2BA832F1DC73500C2F10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BA822F1DC73500C2F10A /* readADHD Claude.app */,
+				F2C2BA8F2F1DC73600C2F10A /* readADHD ClaudeTests.xctest */,
+				F2C2BA992F1DC73600C2F10A /* readADHD ClaudeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C2BA812F1DC73500C2F10A /* readADHD Claude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C2BAA32F1DC73600C2F10A /* Build configuration list for PBXNativeTarget "readADHD Claude" */;
+			buildPhases = (
+				F2C2BA7E2F1DC73500C2F10A /* Sources */,
+				F2C2BA7F2F1DC73500C2F10A /* Frameworks */,
+				F2C2BA802F1DC73500C2F10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F2C2BA842F1DC73500C2F10A /* readADHD Claude */,
+			);
+			name = "readADHD Claude";
+			packageProductDependencies = (
+			);
+			productName = "readADHD Claude";
+			productReference = F2C2BA822F1DC73500C2F10A /* readADHD Claude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2C2BA8E2F1DC73600C2F10A /* readADHD ClaudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C2BAA62F1DC73600C2F10A /* Build configuration list for PBXNativeTarget "readADHD ClaudeTests" */;
+			buildPhases = (
+				F2C2BA8B2F1DC73600C2F10A /* Sources */,
+				F2C2BA8C2F1DC73600C2F10A /* Frameworks */,
+				F2C2BA8D2F1DC73600C2F10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C2BA912F1DC73600C2F10A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F2C2BA922F1DC73600C2F10A /* readADHD ClaudeTests */,
+			);
+			name = "readADHD ClaudeTests";
+			packageProductDependencies = (
+			);
+			productName = "readADHD ClaudeTests";
+			productReference = F2C2BA8F2F1DC73600C2F10A /* readADHD ClaudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2C2BA982F1DC73600C2F10A /* readADHD ClaudeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C2BAA92F1DC73600C2F10A /* Build configuration list for PBXNativeTarget "readADHD ClaudeUITests" */;
+			buildPhases = (
+				F2C2BA952F1DC73600C2F10A /* Sources */,
+				F2C2BA962F1DC73600C2F10A /* Frameworks */,
+				F2C2BA972F1DC73600C2F10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C2BA9B2F1DC73600C2F10A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F2C2BA9C2F1DC73600C2F10A /* readADHD ClaudeUITests */,
+			);
+			name = "readADHD ClaudeUITests";
+			packageProductDependencies = (
+			);
+			productName = "readADHD ClaudeUITests";
+			productReference = F2C2BA992F1DC73600C2F10A /* readADHD ClaudeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C2BA7A2F1DC73500C2F10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					F2C2BA812F1DC73500C2F10A = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					F2C2BA8E2F1DC73600C2F10A = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F2C2BA812F1DC73500C2F10A;
+					};
+					F2C2BA982F1DC73600C2F10A = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F2C2BA812F1DC73500C2F10A;
+					};
+				};
+			};
+			buildConfigurationList = F2C2BA7D2F1DC73500C2F10A /* Build configuration list for PBXProject "readADHD Claude" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C2BA792F1DC73500C2F10A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F2C2BA832F1DC73500C2F10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C2BA812F1DC73500C2F10A /* readADHD Claude */,
+				F2C2BA8E2F1DC73600C2F10A /* readADHD ClaudeTests */,
+				F2C2BA982F1DC73600C2F10A /* readADHD ClaudeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C2BA802F1DC73500C2F10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BA8D2F1DC73600C2F10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BA972F1DC73600C2F10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C2BA7E2F1DC73500C2F10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BA8B2F1DC73600C2F10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BA952F1DC73600C2F10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C2BA912F1DC73600C2F10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C2BA812F1DC73500C2F10A /* readADHD Claude */;
+			targetProxy = F2C2BA902F1DC73600C2F10A /* PBXContainerItemProxy */;
+		};
+		F2C2BA9B2F1DC73600C2F10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C2BA812F1DC73500C2F10A /* readADHD Claude */;
+			targetProxy = F2C2BA9A2F1DC73600C2F10A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2C2BAA12F1DC73600C2F10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2C2BAA22F1DC73600C2F10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C2BAA42F1DC73600C2F10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omarshafi.readADHD-Claude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C2BAA52F1DC73600C2F10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omarshafi.readADHD-Claude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2C2BAA72F1DC73600C2F10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omarshafi.readADHD-ClaudeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/readADHD Claude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/readADHD Claude";
+			};
+			name = Debug;
+		};
+		F2C2BAA82F1DC73600C2F10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omarshafi.readADHD-ClaudeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/readADHD Claude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/readADHD Claude";
+			};
+			name = Release;
+		};
+		F2C2BAAA2F1DC73600C2F10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omarshafi.readADHD-ClaudeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "readADHD Claude";
+			};
+			name = Debug;
+		};
+		F2C2BAAB2F1DC73600C2F10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omarshafi.readADHD-ClaudeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "readADHD Claude";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C2BA7D2F1DC73500C2F10A /* Build configuration list for PBXProject "readADHD Claude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BAA12F1DC73600C2F10A /* Debug */,
+				F2C2BAA22F1DC73600C2F10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C2BAA32F1DC73600C2F10A /* Build configuration list for PBXNativeTarget "readADHD Claude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BAA42F1DC73600C2F10A /* Debug */,
+				F2C2BAA52F1DC73600C2F10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C2BAA62F1DC73600C2F10A /* Build configuration list for PBXNativeTarget "readADHD ClaudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BAA72F1DC73600C2F10A /* Debug */,
+				F2C2BAA82F1DC73600C2F10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C2BAA92F1DC73600C2F10A /* Build configuration list for PBXNativeTarget "readADHD ClaudeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BAAA2F1DC73600C2F10A /* Debug */,
+				F2C2BAAB2F1DC73600C2F10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C2BA7A2F1DC73500C2F10A /* Project object */;
+}
